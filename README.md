@@ -23,7 +23,7 @@ Renpy's self-voice feature relies on the espeak command. This tool intercepts es
 	`voice_name` for [Kokoro-FastAPI](https://github.com/remsky/Kokoro-FastAPI) can be found at [VOICES.md](https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md).
 3. Point Renpy's espeak command to this script (e.g., via symlink or replacement).
 	```bash
-	sudo ln -s espeak.py /usr/bin/espeak
+	sudo ln -s /absolute/path/to/espeak-ai-mimic/espeak.py /usr/bin/espeak
 	sudo chmod +x /usr/bin/espeak
 	```
 	This requires you to uninstall espeak first.
