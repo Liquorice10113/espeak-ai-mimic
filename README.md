@@ -42,7 +42,8 @@ Renpy's self-voice feature relies on the espeak command. This tool intercepts es
 
    Simply press <kbd>v</kbd> to enable self-voice.
    
-   ![](res/demo.mkv)
+   [demo.webm](https://github.com/user-attachments/assets/615f2639-eb5e-40be-8e57-af270c0f04ce)
+
    
 ## File Description
 - `espeak.py`: Main program, handles text-to-speech logic.
