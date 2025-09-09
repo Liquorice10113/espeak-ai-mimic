@@ -20,6 +20,8 @@ Renpy's self-voice feature relies on the espeak command. This tool intercepts es
 	default am_michael 1.1
 	you am_eric 1
 	```
+	Then edit `VOICE_MAPPING` in `espeak.py` to point to your `voice_mapping.txt`.
+	
 	`voice_name` for [Kokoro-FastAPI](https://github.com/remsky/Kokoro-FastAPI) can be found at [VOICES.md](https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md).
 3. Point Renpy's espeak command to this script (e.g., via symlink or replacement).
 	```bash

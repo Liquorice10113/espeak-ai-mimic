@@ -14,6 +14,7 @@ import hashlib
 LOG_FILE = os.path.expanduser("~/espeak_log.txt")
 AUDIO_DIR = os.path.expanduser("~/espeak_audio")
 API_URL = "http://localhost:8880/v1/audio/speech"
+VOICE_MAPPING = "~/espeak-ai-mimic/voice_mapping.txt"
 VOICE = "am_michael"  # Default voice
 MODEL = "kokoro"  # Default model
 SPEED = 1  # Default speed
@@ -51,7 +52,7 @@ def load_voice_mapping(filename):
 voice_map, speed_map = load_voice_mapping(
     os.path.join(
         os.path.dirname(__file__),
-        os.path.expanduser("~/espeak-hijack/voice_mapping.txt"),
+        os.path.expanduser(VOICE_MAPPING),
     )
 )
 
