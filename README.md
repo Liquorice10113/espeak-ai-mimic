@@ -38,7 +38,10 @@ Renpy's self-voice feature relies on the espeak command. This tool intercepts es
 	python3 espeak.py
 	# Input text, end with Ctrl+D
 	```
-
+5. For Renpy games:
+   Simply press <kbd>v</kbd> to enable self-voice.
+   ![](res/demo.mkv)
+   
 ## File Description
 - `espeak.py`: Main program, handles text-to-speech logic.
 - `voice_mapping.txt`: Role voice and speed mapping table.
