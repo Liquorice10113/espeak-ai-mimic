@@ -3,7 +3,7 @@
 espeak-ai-mimic is a tool for mimicking espeak behavior and calling OpenAI API-compatible endpoints for text-to-speech (TTS), mainly used for Renpy's custom self-voice feature.
 
 ## Background
-Renpy's self-voice feature relies on the espeak command. This tool intercepts espeak calls, forwards the text to a local or remote TTS API (such as an OpenAI-compatible endpoint), and automatically plays the generated speech.
+Renpy's self-voice feature relies on the espeak command. This tool intercepts espeak calls, forwards the text to a local or remote TTS API (such as an OpenAI-compatible endpoint), and automatically plays the generated speech. <b>LINUX ONLY!</b>
 
 ## Features
 - Supports configuring different voices and speeds for roles via `voice_mapping.txt`.
@@ -21,7 +21,7 @@ Renpy's self-voice feature relies on the espeak command. This tool intercepts es
 	you am_eric 1
 	```
 	Then edit `VOICE_MAPPING` in `espeak.py` to point to your `voice_mapping.txt`.
-	
+
 	`voice_name` for [Kokoro-FastAPI](https://github.com/remsky/Kokoro-FastAPI) can be found at [VOICES.md](https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md).
 3. Point Renpy's espeak command to this script (e.g., via symlink or replacement).
 	```bash
