@@ -1,0 +1,5 @@
+# Renpy dialog format
+# Format: name voice_name speed
+# Example: default am_eric 1.2
+default am_michael 1.1
+you am_eric 1
